@@ -1,610 +1,614 @@
 
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="utf-8">
-    <meta name="robots" content="noindex, nofollow">
+    <head>
+        <meta charset="utf-8">
+        <meta name="robots" content="noindex, nofollow">
 
-    <title>CURSO ANÁLISIS DE REQUISITOS - COD. 204019</title>
+        <title>CURSO ANÁLISIS DE REQUISITOS - COD. 204019</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
-    <link href="css/personal.css" rel="stylesheet" id="bootstrap-css">
-    <style>
-.footer-distributed{
-    background-color: #000;
-    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
-    box-sizing: border-box;
-    width: 100%;
-    text-align: left;
-    font: bold 16px sans-serif;
+        <link href="css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+        <link href="css/personal.css" rel="stylesheet" id="bootstrap-css">
+        <style>
+            .footer-distributed{
+                background-color: #000;
+                box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+                box-sizing: border-box;
+                width: 100%;
+                text-align: left;
+                font: bold 16px sans-serif;
 
-    padding: 55px 50px;
-    margin-top: 80px;
-}
+                padding: 55px 50px;
+                margin-top: 80px;
+            }
 
-.footer-distributed .footer-left,
-.footer-distributed .footer-center,
-.footer-distributed .footer-right{
-    display: inline-block;
-    vertical-align: top;
-}
+            .footer-distributed .footer-left,
+            .footer-distributed .footer-center,
+            .footer-distributed .footer-right{
+                display: inline-block;
+                vertical-align: top;
+            }
 
-/* Footer left */
+            /* Footer left */
 
-.footer-distributed .footer-left{
-    width: 30%;
-}
+            .footer-distributed .footer-left{
+                width: 30%;
+            }
 
-/* The company logo */
+            /* The company logo */
 
-.footer-distributed h3{
-    color:  #ffffff;
-    font: normal 36px 'Cookie', cursive;
-    margin: 0;
-}
+            .footer-distributed h3{
+                color:  #ffffff;
+                font: normal 36px 'Cookie', cursive;
+                margin: 0;
+            }
 
-.footer-distributed h3 span{
-    color:  #ffffff;
-}
+            .footer-distributed h3 span{
+                color:  #ffffff;
+            }
 
-/* Footer links */
+            /* Footer links */
 
-.footer-distributed .footer-links{
-    color:  #ffffff;
-    margin: 20px 0 12px;
-    padding: 0;
-}
+            .footer-distributed .footer-links{
+                color:  #ffffff;
+                margin: 20px 0 12px;
+                padding: 0;
+            }
 
-.footer-distributed .footer-links a{
-    display:inline-block;
-    line-height: 1.8;
-    text-decoration: none;
-    color:  inherit;
-}
+            .footer-distributed .footer-links a{
+                display:inline-block;
+                line-height: 1.8;
+                text-decoration: none;
+                color:  inherit;
+            }
 
-.footer-distributed .footer-company-name{
-    color:  #8f9296;
-    font-size: 14px;
-    font-weight: normal;
-    margin: 0;
-}
+            .footer-distributed .footer-company-name{
+                color:  #8f9296;
+                font-size: 14px;
+                font-weight: normal;
+                margin: 0;
+            }
 
-/* Footer Center */
+            /* Footer Center */
 
-.footer-distributed .footer-center{
-    width: 45%;
-}
+            .footer-distributed .footer-center{
+                width: 45%;
+            }
 
-.footer-distributed .footer-center i{
-    background-color:  #33383b;
-    color: #ffffff;
-    font-size: 25px;
-    width: 38px;
-    height: 38px;
-    border-radius: 50%;
-    text-align: center;
-    line-height: 42px;
-    margin: 10px 15px;
-    vertical-align: middle;
-}
+            .footer-distributed .footer-center i{
+                background-color:  #33383b;
+                color: #ffffff;
+                font-size: 25px;
+                width: 38px;
+                height: 38px;
+                border-radius: 50%;
+                text-align: center;
+                line-height: 42px;
+                margin: 10px 15px;
+                vertical-align: middle;
+            }
 
-.footer-distributed .footer-center i.fa-envelope{
-    font-size: 17px;
-    line-height: 38px;
-}
+            .footer-distributed .footer-center i.fa-envelope{
+                font-size: 17px;
+                line-height: 38px;
+            }
 
-.footer-distributed .footer-center p{
-    display: inline-block;
-    color: #ffffff;
-    vertical-align: middle;
-    margin:0;
-}
+            .footer-distributed .footer-center p{
+                display: inline-block;
+                color: #ffffff;
+                vertical-align: middle;
+                margin:0;
+            }
 
-.footer-distributed .footer-center p span{
-    display:block;
-    font-weight: normal;
-    font-size:14px;
-    line-height:2;
-}
+            .footer-distributed .footer-center p span{
+                display:block;
+                font-weight: normal;
+                font-size:14px;
+                line-height:2;
+            }
 
-.footer-distributed .footer-center p a{
-    color:  #5383d3;
-    text-decoration: none;;
-}
+            .footer-distributed .footer-center p a{
+                color:  #5383d3;
+                text-decoration: none;;
+            }
 
 
-/* Footer Right */
+            /* Footer Right */
 
-.footer-distributed .footer-right{
-    width: 20%;
-}
+            .footer-distributed .footer-right{
+                width: 20%;
+            }
 
-.footer-distributed .footer-company-about{
-    line-height: 20px;
-    color:  #000000;
-    font-size: 13px;
-    font-weight: normal;
-    margin: 0;
-}
+            .footer-distributed .footer-company-about{
+                line-height: 20px;
+                color:  #000000;
+                font-size: 13px;
+                font-weight: normal;
+                margin: 0;
+            }
 
-.footer-distributed .footer-company-about span{
-    display: block;
-    color:  #000000;
-    font-size: 14px;
-    font-weight: bold;
-    margin-bottom: 20px;
-}
+            .footer-distributed .footer-company-about span{
+                display: block;
+                color:  #000000;
+                font-size: 14px;
+                font-weight: bold;
+                margin-bottom: 20px;
+            }
 
-.footer-distributed .footer-icons{
-    margin-top: 25px;
-}
+            .footer-distributed .footer-icons{
+                margin-top: 25px;
+            }
 
-.footer-distributed .footer-icons a{
-    display: inline-block;
-    width: 35px;
-    height: 35px;
-    cursor: pointer;
-    background-color:  #33383b;
-    border-radius: 2px;
+            .footer-distributed .footer-icons a{
+                display: inline-block;
+                width: 35px;
+                height: 35px;
+                cursor: pointer;
+                background-color:  #33383b;
+                border-radius: 2px;
 
-    font-size: 20px;
-    color: #ffffff;
-    text-align: center;
-    line-height: 35px;
+                font-size: 20px;
+                color: #ffffff;
+                text-align: center;
+                line-height: 35px;
 
-    margin-right: 3px;
-    margin-bottom: 5px;
-}
+                margin-right: 3px;
+                margin-bottom: 5px;
+            }
 
-/* If you don't want the footer to be responsive, remove these media queries */
+            /* If you don't want the footer to be responsive, remove these media queries */
 
-@media (max-width: 880px) {
+            @media (max-width: 880px) {
 
-    .footer-distributed{
-        font: bold 14px sans-serif;
-    }
+                .footer-distributed{
+                    font: bold 14px sans-serif;
+                }
 
-    .footer-distributed .footer-left,
-    .footer-distributed .footer-center,
-    .footer-distributed .footer-right{
-        display: block;
-        width: 100%;
-        margin-bottom: 40px;
-        text-align: center;
-    }
+                .footer-distributed .footer-left,
+                .footer-distributed .footer-center,
+                .footer-distributed .footer-right{
+                    display: block;
+                    width: 100%;
+                    margin-bottom: 40px;
+                    text-align: center;
+                }
 
-    .footer-distributed .footer-center i{
-        margin-left: 0;
-    }
+                .footer-distributed .footer-center i{
+                    margin-left: 0;
+                }
 
-}
-</style>
+            }
+        </style>
 
-    <script src="js/jquery-3.2.1.js"></script>
-    <script src="js/bootstrap.min.js"></script>
+        <script src="js/jquery-3.2.1.js"></script>
+        <script src="js/bootstrap.min.js"></script>
 
-</head>
-<body>
-    <nav  class="navbar border navbar-expand-sm  fixed-top  navbar-dark  menu-fondo bg-primary" >
-  <div class="container" style="background: #d4a402 important!;">
-  <!-- Brand -->
-  <a class="navbar-brand" href="#">
-    <img src="images/logoUNAD.png" alt="unad.edu.co" style="width:220px;">
-  </a>
-   <!-- Toggler/collapsibe Button -->
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-<!-- Navbar links -->
-  <div class="collapse navbar-collapse" id="collapsibleNavbar">
-    <ul class="navbar-nav ml-auto">
-      <li class="nav-item active">
-        <a class="nav-link" href="index.html">Inicio</a>
-      </li>
-      <li class="navbar-collapse">
-        <a class="nav-link" href="actividad1.html">Actividad 1</a>
-      </li>
-      <li class="navbar-collapse">
-        <a class="nav-link" href="actividad1.html">Actividad 2</a>
-      </li>
-      <li class="navbar-collapse">
-        <a class="nav-link" href="actividad1.html">Actividad 3</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="multimedia.html">Multimedia</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="autores.html">Autores</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="lectura.html">Lectura</a>
-      </li>
-    
-    </ul>
-  </div>
- </div>
-</nav>
+    </head>
+    <body>
+        <nav  class="navbar border navbar-expand-sm  fixed-top  navbar-dark  menu-fondo bg-primary" >
+            <div class="container" style="background: #d4a402 important!;">
+                <!-- Brand -->
+                <a class="navbar-brand" href="#">
+                    <img src="images/logoUNAD.png" alt="unad.edu.co" style="width:220px;">
+                </a>
+                <!-- Toggler/collapsibe Button -->
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <!-- Navbar links -->
+                <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="index.html">Inicio</a>
+                        </li>
+                        <li class="navbar-collapse">
+                            <a class="nav-link" href="actividad1.html">Actividad 1</a>
+                        </li>
+                        <li class="navbar-collapse">
+                            <a class="nav-link" href="actividad1.html">Actividad 2</a>
+                        </li>
+                        <li class="navbar-collapse">
+                            <a class="nav-link" href="actividad1.html">Actividad 3</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="multimedia.html">Multimedia</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="autores.html">Autores</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="lectura.html">Lectura</a>
+                        </li>
 
-<div class="pt-5"></div>
-<section id="team" class="pb-5 contenido-fondo">
-    <div class="container">
-        <h5 class="section-title h1" >AUTORES</h5>
-        <div class="row">
-            <!-- Team member -->
-            <div class="col-xs-12 col-sm-6 col-md-4">
-                <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
-                    <div class="mainflip">
-                        <div class="frontside">
-                            <div class="card">
-                                <div class="card-body text-center">
-                                    <p><img class=" img-fluid" src="images/foto_riascos.jpg" alt="card image"></p>
-                                    <h4 class="card-title">Pablo Riascos</h4>
-                                    <p class="card-text">Estudiante de Ingenieria de sistema secciona oriental.</p>
-                                    <a href="#" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div class="pt-5"></div>
+        <section id="team" class="pb-5 contenido-fondo">
+            <div class="container">
+                <h5 class="section-title h1" >AUTORES</h5>
+                <div class="row">
+                    <!-- Team member -->
+                    <div class="col-xs-12 col-sm-6 col-md-4">
+                        <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+                            <div class="mainflip">
+                                <div class="frontside">
+                                    <div class="card">
+                                        <div class="card-body text-center">
+                                            <p><img class=" img-fluid" src="images/foto_riascos.jpg" alt="card image"></p>
+                                            <h4 class="card-title">Pablo Riascos</h4>
+                                            <p class="card-text">Estudiante de Ingenieria de sistema secciona oriental.</p>
+                                            <a href="#" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
+                                        </div>
+                                    </div>
                                 </div>
-                            </div>
-                        </div>
-                        <div class="backside">
-                            <div class="card">
-                                <div class="card-body text-center mt-4">
-                                    <h4 class="card-title">Pablo Riascos</h4>
-                                    <p class="card-text">Codigo: 1098732710<br>
-                                        Usuario skype: Pablo Arturo Riascos Jaramillo<br>
-                                        Correo: priascosjaramillo@gmail.com
-                                    </p>
-                                    <ul class="list-inline">
-                                        <li class="list-inline-item">
-                                            <a class="social-icon text-xs-center" target="_blank" href="#">
-                                                <i class="fa fa-facebook"></i>
-                                            </a>
-                                        </li>
-                                        <li class="list-inline-item">
-                                            <a class="social-icon text-xs-center" target="_blank" href="#">
-                                                <i class="fa fa-twitter"></i>
-                                            </a>
-                                        </li>
-                                        <li class="list-inline-item">
-                                            <a class="social-icon text-xs-center" target="_blank" href="#">
-                                                <i class="fa fa-skype"></i>
-                                            </a>
-                                        </li>
-                                        <li class="list-inline-item">
-                                            <a class="social-icon text-xs-center" target="_blank" href="#">
-                                                <i class="fa fa-google"></i>
-                                            </a>
-                                        </li>
-                                    </ul>
+                                <div class="backside">
+                                    <div class="card">
+                                        <div class="card-body text-center mt-4">
+                                            <h4 class="card-title">Pablo Riascos</h4>
+                                            <p class="card-text">Codigo: 1098732710<br>
+                                                Usuario skype: Pablo Arturo Riascos Jaramillo<br>
+                                                Correo: priascosjaramillo@gmail.com
+                                            </p>
+                                            <ul class="list-inline">
+                                                <li class="list-inline-item">
+                                                    <a class="social-icon text-xs-center" target="_blank" href="#">
+                                                        <i class="fa fa-facebook"></i>
+                                                    </a>
+                                                </li>
+                                                <li class="list-inline-item">
+                                                    <a class="social-icon text-xs-center" target="_blank" href="#">
+                                                        <i class="fa fa-twitter"></i>
+                                                    </a>
+                                                </li>
+                                                <li class="list-inline-item">
+                                                    <a class="social-icon text-xs-center" target="_blank" href="#">
+                                                        <i class="fa fa-skype"></i>
+                                                    </a>
+                                                </li>
+                                                <li class="list-inline-item">
+                                                    <a class="social-icon text-xs-center" target="_blank" href="#">
+                                                        <i class="fa fa-google"></i>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
-            </div>
-            <!-- ./Team member -->
-            <!-- Team member -->
-            <div class="col-xs-12 col-sm-6 col-md-4">
-                <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
-                    <div class="mainflip">
-                        <div class="frontside">
-                            <div class="card">
-                                <div class="card-body text-center">
-                                    <p><img class=" img-fluid" src="images/foto_riascos.jpg" alt="card image"></p>
-                                    <h4 class="card-title">Pablo Riascos</h4>
-                                    <p class="card-text">Estudiante de Ingenieria de sistema secciona oriental.</p>
-                                    <a href="#" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
+                    <!-- ./Team member -->
+                    <!-- Team member -->
+                    <div class="col-xs-12 col-sm-6 col-md-4">
+                        <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+                            <div class="mainflip">
+                                <div class="frontside">
+                                    <div class="card">
+                                        <div class="card-body text-center">
+                                            <p><img class=" img-fluid" src="images/foto_riascos.jpg" alt="card image"></p>
+                                            <h4 class="card-title">Pablo Riascos</h4>
+                                            <p class="card-text">Estudiante de Ingenieria de sistema secciona oriental.</p>
+                                            <a href="#" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
+                                        </div>
+                                    </div>
                                 </div>
-                            </div>
-                        </div>
-                        <div class="backside">
-                            <div class="card">
-                                <div class="card-body text-center mt-4">
-                                    <h4 class="card-title">Pablo Riascos</h4>
-                                    <p class="card-text">Codigo: 1098732710<br>
-                                        Usuario skype: Pablo Arturo Riascos Jaramillo<br>
-                                        Correo: priascosjaramillo@gmail.com
-                                    </p>
-                                    <ul class="list-inline">
-                                        <li class="list-inline-item">
-                                            <a class="social-icon text-xs-center" target="_blank" href="#">
-                                                <i class="fa fa-facebook"></i>
-                                            </a>
-                                        </li>
-                                        <li class="list-inline-item">
-                                            <a class="social-icon text-xs-center" target="_blank" href="#">
-                                                <i class="fa fa-twitter"></i>
-                                            </a>
-                                        </li>
-                                        <li class="list-inline-item">
-                                            <a class="social-icon text-xs-center" target="_blank" href="#">
-                                                <i class="fa fa-skype"></i>
-                                            </a>
-                                        </li>
-                                        <li class="list-inline-item">
-                                            <a class="social-icon text-xs-center" target="_blank" href="#">
-                                                <i class="fa fa-google"></i>
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- ./Team member -->
-            <!-- Team member -->
-            <div class="col-xs-12 col-sm-6 col-md-4">
-                <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
-                    <div class="mainflip">
-                        <div class="frontside">
-                            <div class="card">
-                                <div class="card-body text-center">
-                                    <p><img class=" img-fluid" src="images/foto_riascos.jpg" alt="card image"></p>
-                                    <h4 class="card-title">Pablo Riascos</h4>
-                                    <p class="card-text">Estudiante de Ingenieria de sistema secciona oriental.</p>
-                                    <a href="#" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="backside">
-                            <div class="card">
-                                <div class="card-body text-center mt-4">
-                                    <h4 class="card-title">Pablo Riascos</h4>
-                                    <p class="card-text">Codigo: 1098732710<br>
-                                        Usuario skype: Pablo Arturo Riascos Jaramillo<br>
-                                        Correo: priascosjaramillo@gmail.com
-                                    </p>
-                                    <ul class="list-inline">
-                                        <li class="list-inline-item">
-                                            <a class="social-icon text-xs-center" target="_blank" href="#">
-                                                <i class="fa fa-facebook"></i>
-                                            </a>
-                                        </li>
-                                        <li class="list-inline-item">
-                                            <a class="social-icon text-xs-center" target="_blank" href="#">
-                                                <i class="fa fa-twitter"></i>
-                                            </a>
-                                        </li>
-                                        <li class="list-inline-item">
-                                            <a class="social-icon text-xs-center" target="_blank" href="#">
-                                                <i class="fa fa-skype"></i>
-                                            </a>
-                                        </li>
-                                        <li class="list-inline-item">
-                                            <a class="social-icon text-xs-center" target="_blank" href="#">
-                                                <i class="fa fa-google"></i>
-                                            </a>
-                                        </li>
-                                    </ul>
+                                <div class="backside">
+                                    <div class="card">
+                                        <div class="card-body text-center mt-4">
+                                            <h4 class="card-title">Pablo Riascos</h4>
+                                            <p class="card-text">Codigo: 1098732710<br>
+                                                Usuario skype: Pablo Arturo Riascos Jaramillo<br>
+                                                Correo: priascosjaramillo@gmail.com
+                                            </p>
+                                            <ul class="list-inline">
+                                                <li class="list-inline-item">
+                                                    <a class="social-icon text-xs-center" target="_blank" href="#">
+                                                        <i class="fa fa-facebook"></i>
+                                                    </a>
+                                                </li>
+                                                <li class="list-inline-item">
+                                                    <a class="social-icon text-xs-center" target="_blank" href="#">
+                                                        <i class="fa fa-twitter"></i>
+                                                    </a>
+                                                </li>
+                                                <li class="list-inline-item">
+                                                    <a class="social-icon text-xs-center" target="_blank" href="#">
+                                                        <i class="fa fa-skype"></i>
+                                                    </a>
+                                                </li>
+                                                <li class="list-inline-item">
+                                                    <a class="social-icon text-xs-center" target="_blank" href="#">
+                                                        <i class="fa fa-google"></i>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
-            </div>
-            <!-- ./Team member -->
-            <!-- Team member -->
-            <div class="col-xs-12 col-sm-6 col-md-4">
-                <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
-                    <div class="mainflip">
-                        <div class="frontside">
-                            <div class="card">
-                                <div class="card-body text-center">
-                                    <p><img class=" img-fluid" src="images/foto_riascos.jpg" alt="card image"></p>
-                                    <h4 class="card-title">Pablo Riascos</h4>
-                                    <p class="card-text">Estudiante de Ingenieria de sistema secciona oriental.</p>
-                                    <a href="#" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
+                    <!-- ./Team member -->
+                    <!-- Team member -->
+                    <div class="col-xs-12 col-sm-6 col-md-4">
+                        <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+                            <div class="mainflip">
+                                <div class="frontside">
+                                    <div class="card">
+                                        <div class="card-body text-center">
+                                            <p><img class=" img-fluid" src="images/foto_riascos.jpg" alt="card image"></p>
+                                            <h4 class="card-title">Pablo Riascos</h4>
+                                            <p class="card-text">Estudiante de Ingenieria de sistema secciona oriental.</p>
+                                            <a href="#" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
+                                        </div>
+                                    </div>
                                 </div>
-                            </div>
-                        </div>
-                        <div class="backside">
-                            <div class="card">
-                                <div class="card-body text-center mt-4">
-                                    <h4 class="card-title">Pablo Riascos</h4>
-                                    <p class="card-text">Codigo: 1098732710<br>
-                                        Usuario skype: Pablo Arturo Riascos Jaramillo<br>
-                                        Correo: priascosjaramillo@gmail.com
-                                    </p>
-                                    <ul class="list-inline">
-                                        <li class="list-inline-item">
-                                            <a class="social-icon text-xs-center" target="_blank" href="#">
-                                                <i class="fa fa-facebook"></i>
-                                            </a>
-                                        </li>
-                                        <li class="list-inline-item">
-                                            <a class="social-icon text-xs-center" target="_blank" href="#">
-                                                <i class="fa fa-twitter"></i>
-                                            </a>
-                                        </li>
-                                        <li class="list-inline-item">
-                                            <a class="social-icon text-xs-center" target="_blank" href="#">
-                                                <i class="fa fa-skype"></i>
-                                            </a>
-                                        </li>
-                                        <li class="list-inline-item">
-                                            <a class="social-icon text-xs-center" target="_blank" href="#">
-                                                <i class="fa fa-google"></i>
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- ./Team member -->
-            <!-- Team member -->
-            <div class="col-xs-12 col-sm-6 col-md-4">
-                <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
-                    <div class="mainflip">
-                        <div class="frontside">
-                            <div class="card">
-                                <div class="card-body text-center">
-                                    <p><img class=" img-fluid" src="images/foto_riascos.jpg" alt="card image"></p>
-                                    <h4 class="card-title">Pablo Riascos</h4>
-                                    <p class="card-text">Estudiante de Ingenieria de sistema secciona oriental.</p>
-                                    <a href="#" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="backside">
-                            <div class="card">
-                                <div class="card-body text-center mt-4">
-                                    <h4 class="card-title">Pablo Riascos</h4>
-                                    <p class="card-text">Codigo: 1098732710<br>
-                                        Usuario skype: Pablo Arturo Riascos Jaramillo<br>
-                                        Correo: priascosjaramillo@gmail.com
-                                    </p>
-                                    <ul class="list-inline">
-                                        <li class="list-inline-item">
-                                            <a class="social-icon text-xs-center" target="_blank" href="#">
-                                                <i class="fa fa-facebook"></i>
-                                            </a>
-                                        </li>
-                                        <li class="list-inline-item">
-                                            <a class="social-icon text-xs-center" target="_blank" href="#">
-                                                <i class="fa fa-twitter"></i>
-                                            </a>
-                                        </li>
-                                        <li class="list-inline-item">
-                                            <a class="social-icon text-xs-center" target="_blank" href="#">
-                                                <i class="fa fa-skype"></i>
-                                            </a>
-                                        </li>
-                                        <li class="list-inline-item">
-                                            <a class="social-icon text-xs-center" target="_blank" href="#">
-                                                <i class="fa fa-google"></i>
-                                            </a>
-                                        </li>
-                                    </ul>
+                                <div class="backside">
+                                    <div class="card">
+                                        <div class="card-body text-center mt-4">
+                                            <h4 class="card-title">Pablo Riascos</h4>
+                                            <p class="card-text">Codigo: 1098732710<br>
+                                                Usuario skype: Pablo Arturo Riascos Jaramillo<br>
+                                                Correo: priascosjaramillo@gmail.com
+                                            </p>
+                                            <ul class="list-inline">
+                                                <li class="list-inline-item">
+                                                    <a class="social-icon text-xs-center" target="_blank" href="#">
+                                                        <i class="fa fa-facebook"></i>
+                                                    </a>
+                                                </li>
+                                                <li class="list-inline-item">
+                                                    <a class="social-icon text-xs-center" target="_blank" href="#">
+                                                        <i class="fa fa-twitter"></i>
+                                                    </a>
+                                                </li>
+                                                <li class="list-inline-item">
+                                                    <a class="social-icon text-xs-center" target="_blank" href="#">
+                                                        <i class="fa fa-skype"></i>
+                                                    </a>
+                                                </li>
+                                                <li class="list-inline-item">
+                                                    <a class="social-icon text-xs-center" target="_blank" href="#">
+                                                        <i class="fa fa-google"></i>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
-            </div>
-            <!-- ./Team member -->
-            <!-- Team member -->
-            <div class="col-xs-12 col-sm-6 col-md-4">
-                <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
-                    <div class="mainflip">
-                        <div class="frontside">
-                            <div class="card">
-                                <div class="card-body text-center">
-                                    <p><img class=" img-fluid" src="images/foto_riascos.jpg" alt="card image"></p>
-                                    <h4 class="card-title">Pablo Riascos</h4>
-                                    <p class="card-text">Estudiante de Ingenieria de sistema secciona oriental.</p>
-                                    <a href="#" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
+                    <!-- ./Team member -->
+                    <!-- Team member -->
+                    <div class="col-xs-12 col-sm-6 col-md-4">
+                        <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+                            <div class="mainflip">
+                                <div class="frontside">
+                                    <div class="card">
+                                        <div class="card-body text-center">
+                                            <p><img class=" img-fluid" src="images/foto_riascos.jpg" alt="card image"></p>
+                                            <h4 class="card-title">Pablo Riascos</h4>
+                                            <p class="card-text">Estudiante de Ingenieria de sistema secciona oriental.</p>
+                                            <a href="#" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
+                                        </div>
+                                    </div>
                                 </div>
-                            </div>
-                        </div>
-                        <div class="backside">
-                            <div class="card">
-                                <div class="card-body text-center mt-4">
-                                    <h4 class="card-title">Pablo Riascos</h4>
-                                    <p class="card-text">Codigo: 1098732710<br>
-                                        Usuario skype: Pablo Arturo Riascos Jaramillo<br>
-                                        Correo: priascosjaramillo@gmail.com
-                                    </p>
-                                    <ul class="list-inline">
-                                        <li class="list-inline-item">
-                                            <a class="social-icon text-xs-center" target="_blank" href="#">
-                                                <i class="fa fa-facebook"></i>
-                                            </a>
-                                        </li>
-                                        <li class="list-inline-item">
-                                            <a class="social-icon text-xs-center" target="_blank" href="#">
-                                                <i class="fa fa-twitter"></i>
-                                            </a>
-                                        </li>
-                                        <li class="list-inline-item">
-                                            <a class="social-icon text-xs-center" target="_blank" href="#">
-                                                <i class="fa fa-skype"></i>
-                                            </a>
-                                        </li>
-                                        <li class="list-inline-item">
-                                            <a class="social-icon text-xs-center" target="_blank" href="#">
-                                                <i class="fa fa-google"></i>
-                                            </a>
-                                        </li>
-                                    </ul>
+                                <div class="backside">
+                                    <div class="card">
+                                        <div class="card-body text-center mt-4">
+                                            <h4 class="card-title">Pablo Riascos</h4>
+                                            <p class="card-text">Codigo: 1098732710<br>
+                                                Usuario skype: Pablo Arturo Riascos Jaramillo<br>
+                                                Correo: priascosjaramillo@gmail.com
+                                            </p>
+                                            <ul class="list-inline">
+                                                <li class="list-inline-item">
+                                                    <a class="social-icon text-xs-center" target="_blank" href="#">
+                                                        <i class="fa fa-facebook"></i>
+                                                    </a>
+                                                </li>
+                                                <li class="list-inline-item">
+                                                    <a class="social-icon text-xs-center" target="_blank" href="#">
+                                                        <i class="fa fa-twitter"></i>
+                                                    </a>
+                                                </li>
+                                                <li class="list-inline-item">
+                                                    <a class="social-icon text-xs-center" target="_blank" href="#">
+                                                        <i class="fa fa-skype"></i>
+                                                    </a>
+                                                </li>
+                                                <li class="list-inline-item">
+                                                    <a class="social-icon text-xs-center" target="_blank" href="#">
+                                                        <i class="fa fa-google"></i>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
-            </div>
-            <!-- ./Team member -->
+                    <!-- ./Team member -->
+                    <!-- Team member -->
+                    <div class="col-xs-12 col-sm-6 col-md-4">
+                        <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+                            <div class="mainflip">
+                                <div class="frontside">
+                                    <div class="card">
+                                        <div class="card-body text-center">
+                                            <p><img class=" img-fluid" src="images/foto_riascos.jpg" alt="card image"></p>
+                                            <h4 class="card-title">Pablo Riascos</h4>
+                                            <p class="card-text">Estudiante de Ingenieria de sistema secciona oriental.</p>
+                                            <a href="#" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="backside">
+                                    <div class="card">
+                                        <div class="card-body text-center mt-4">
+                                            <h4 class="card-title">Pablo Riascos</h4>
+                                            <p class="card-text">Codigo: 1098732710<br>
+                                                Usuario skype: Pablo Arturo Riascos Jaramillo<br>
+                                                Correo: priascosjaramillo@gmail.com
+                                            </p>
+                                            <ul class="list-inline">
+                                                <li class="list-inline-item">
+                                                    <a class="social-icon text-xs-center" target="_blank" href="#">
+                                                        <i class="fa fa-facebook"></i>
+                                                    </a>
+                                                </li>
+                                                <li class="list-inline-item">
+                                                    <a class="social-icon text-xs-center" target="_blank" href="#">
+                                                        <i class="fa fa-twitter"></i>
+                                                    </a>
+                                                </li>
+                                                <li class="list-inline-item">
+                                                    <a class="social-icon text-xs-center" target="_blank" href="#">
+                                                        <i class="fa fa-skype"></i>
+                                                    </a>
+                                                </li>
+                                                <li class="list-inline-item">
+                                                    <a class="social-icon text-xs-center" target="_blank" href="#">
+                                                        <i class="fa fa-google"></i>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- ./Team member -->
+                    <!-- Team member -->
+                    <div class="col-xs-12 col-sm-6 col-md-4">
+                        <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+                            <div class="mainflip">
+                                <div class="frontside">
+                                    <div class="card">
+                                        <div class="card-body text-center">
+                                            <p><img class=" img-fluid" src="images/foto_riascos.jpg" alt="card image"></p>
+                                            <h4 class="card-title">Pablo Riascos</h4>
+                                            <p class="card-text">Estudiante de Ingenieria de sistema secciona oriental.</p>
+                                            <a href="#" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="backside">
+                                    <div class="card">
+                                        <div class="card-body text-center mt-4">
+                                            <h4 class="card-title">Pablo Riascos</h4>
+                                            <p class="card-text">Codigo: 1098732710<br>
+                                                Usuario skype: Pablo Arturo Riascos Jaramillo<br>
+                                                Correo: priascosjaramillo@gmail.com
+                                            </p>
+                                            <ul class="list-inline">
+                                                <li class="list-inline-item">
+                                                    <a class="social-icon text-xs-center" target="_blank" href="#">
+                                                        <i class="fa fa-facebook"></i>
+                                                    </a>
+                                                </li>
+                                                <li class="list-inline-item">
+                                                    <a class="social-icon text-xs-center" target="_blank" href="#">
+                                                        <i class="fa fa-twitter"></i>
+                                                    </a>
+                                                </li>
+                                                <li class="list-inline-item">
+                                                    <a class="social-icon text-xs-center" target="_blank" href="#">
+                                                        <i class="fa fa-skype"></i>
+                                                    </a>
+                                                </li>
+                                                <li class="list-inline-item">
+                                                    <a class="social-icon text-xs-center" target="_blank" href="#">
+                                                        <i class="fa fa-google"></i>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- ./Team member -->
 
-        </div>
-    </div>
-</section>
+                </div>
+            </div>
+        </section>
 
-<footer class="footer-distributed">
+        <footer class="footer-distributed">
 
             <div class="footer-left">
-<div class="row"><span class="hidden-xs">
-                <h3><span></span><a href="http://scf.edu/library"> <img src="images/logoUNADMobile.png"</span></h3></a>
+                <div class="row"><span class="hidden-xs">
+                        <h3><span></span><a href="http://scf.edu/library"> <img src="images/logoUNADMobile.png"</span></h3></a>
 
 
 
-                <p class="footer-links">
-                    <a href="#">Enlaces</a><p></p>
-                    ·
-                    <a href="index.html">Inicio</a><p></p>
-                    ·
-                    <a href="lectura.html">Lecturas</a><p></p>
-                    ·
-                    <a href="multimedia.html">Multimedia</a><p></p>
-                    ·
-                    <a href="autores.html">Autores</a><p></p>
-                    
-                
-                    
-                </p>
+                            <p class="footer-links">
+                                <a href="#">Enlaces</a><p></p>
+                            ·
+                            <a href="index.html">Inicio</a><p></p>
+                            ·
+                            <a href="lectura.html">Lecturas</a><p></p>
+                            ·
+                            <a href="multimedia.html">Multimedia</a><p></p>
+                            ·
+                            <a href="autores.html">Autores</a><p></p>
 
-            
-                </span>
-                
+
+
+                            </p>
+
+
+                    </span>
+
+                </div>
+                <div id="sfcbalqacbah99qcmpyf5kzpznk1wxlj3f7" style="position:  absolute;"></div>
+                <script type="text/javascript" src="https://counter5.wheredoyoucomefrom.ovh/private/counter.js?c=balqacbah99qcmpyf5kzpznk1wxlj3f7&down=async" async></script>
+                <noscript><a href="https://www.contadorvisitasgratis.com" title="contadores de visitas"><img src="https://counter5.wheredoyoucomefrom.ovh/private/contadorvisitasgratis.php?c=balqacbah99qcmpyf5kzpznk1wxlj3f7" border="0" title="contadores de visitas" alt="contadores de visitas"></a></noscript>
             </div>
-            </div>
+        </div>
 
-            <div class="footer-center">
+        <div class="footer-center">
 
 
-                
-                <div>
-                    <i class="fa "></i>
-                    <p><span>Pablo Arturo Riascos - 1098732710</span></br>
+
+            <div>
+                <i class="fa "></i>
+                <p><span>Pablo Arturo Riascos - 1098732710</span></br>
 
                     <a class="twitter-timeline" href="https://twitter.com/universidadunad?lang=es" data-widget-id="565577492971671552">UNAD</a>
                     <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 
-                </div>
-
-
             </div>
 
-            <div class="footer-right">
 
-                <p class="footer-company-about">
+        </div>
+
+        <div class="footer-right">
+
+            <p class="footer-company-about">
                 </br>
                 </br>
                 </br>
-                <div class="row">
-                    <span class="hidden-xs">
+            <div class="row">
+                <span class="hidden-xs">
                     <span><h3> OVI CURSO ANÁLISIS DE REQUISITOS - COD. 204019</span></h3>
 
-                </div>
-                </span>
-
-               
+            </div>
+            </span>
 
 
 
-        </footer>
+
+
+    </footer>
     <script type="text/javascript">
-        </script>
+    </script>
 </body>
 </html>
